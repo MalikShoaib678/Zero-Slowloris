@@ -3,7 +3,13 @@
 ## Introduction
 
 ZeroSlowloris is a powerful Denial-of-Service (DoS) tool written in C++, inspired by the popular Python Slowloris tool. It introduces multithreading and customization options, making it a more efficient and versatile tool for conducting DoS attacks.
-
+## Installation
+```bash
+sudo apt install gcc g++ -y
+git clone https://github.com/MalikShoaib678/Zero-Slowloris
+g++ Zero-Slowloris.cxx -o zerodos
+./zerodos www.example.com 80 1000 200
+```
 ## Features
 
 * **Multithreading:** ZeroSlowloris utilizes multiple threads to establish connections, significantly improving the speed and efficiency of the attack.
