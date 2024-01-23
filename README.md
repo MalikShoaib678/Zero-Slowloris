@@ -9,6 +9,10 @@ sudo apt install gcc g++ -y
 git clone https://github.com/MalikShoaib678/Zero-Slowloris
 g++ Zero-Slowloris.cxx -o zerodos
 ./zerodos www.example.com 80 1000 200
+
+
+#try turbo one ..It is more powerfull..
+./Turbo-ZeroSlowloris www.example.com 80 1000 200
 ```
 ## Features
 
@@ -52,8 +56,9 @@ Author: MalikShoaib
 
 We have conducted performance tests comparing ZeroSlowloris with the original Python Slowloris tool. The results were impressive:
 
-* **Python Slowloris Tool:** It took approximately 5 minutes to establish 800 connections to the target.
-* **ZeroSlowloris:** With its multithreading capabilities, ZeroSlowloris achieved the same result in just 16 seconds.
+* **Python Slowloris Tool:** It took approximately 52 sec to establish 3000 connections to the target.
+* **ZeroSlowloris:**(Turbo version):
+* With its multithreading capabilities, ZeroSlowloris achieved the same result in just 0.846 seconds.
 
 ## Disclaimer
 
